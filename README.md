@@ -42,3 +42,13 @@ git clone https://github.com/Falconmx1/mx-system-monitoring.git
 cd mx-system-monitoring
 pip install -r requirements.txt
 python src/main.py
+
+Revisión rápida
+
+python src/main.py --once
+Monitoreo con alertas
+
+python src/main.py --alert-cpu 75 --alert-ram 90
+Exportar a CSV
+
+python src/main.py --once --export datos.csv
